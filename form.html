@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Sign Up </title>
+</head>
+<body class="b1">
+    <header>
+        <nav class="navbar">
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </ul>
+                </nav>
+     
+    </header>
+    <main class="main">
+        <h2>Welcome to Sign Up Page</h2>
+    <form>
+        <h4 class="h4">Please Fill Up the Form to Sign Up</h4>  
+        <fieldset class="sec1 fieldset" >
+            <legend class="legend">Personal Information(Must Fill up)</legend>
+           
+            <label for="name">Full Name:
+                <input type="text" id="name" placeholder="Your Name">
+            </label><hr><br>
+
+            <label for="email">E-mail:
+                <input type="email" id="email" placeholder="Your Email">
+            </label><hr><br>
+            <label for="phone">Mobile:
+                <input type="number" id="phone" placeholder="Phone Number">
+            </label><hr><br>
+            <label for="address">Address:
+                <input type="text" id="address" placeholder="Your Address">
+
+            </label><hr><br>
+            <label for="age">Age:
+                <input type="number" id="age"  min="18" max="30">
+            </label><hr><br>
+            <label for="bg">Blood Group:
+                <select name="bg" id="bg" >
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+" selected>B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                   
+                </select><hr><br>
+            </label>
+            <label for="gender">Gender:
+                <input type="radio" id="gender" value="Male">Male
+                <input type="radio" id="gender" value="Female">Female
+                <input type="radio" id="gender" value="Third">Others
+            </label><hr><br>
+            </fieldset>
+            <fieldset class="sec1 fieldset" >
+                <legend class="legend">Additional Information(Optional part)</legend>
+             
+                <label for="photo">Upload a photo:
+                    <input type="file" id="photo">
+                 </label><hr><br>
+                 <label for="message">Message:<br>
+                    <textarea name="msg" id="message" cols="15" rows="5"></textarea>
+        
+                </label>
+               
+            </fieldset>
+
+            <fieldset class="sec2 fieldset">
+                <legend class="legend">Course Related Information(Must Required)</legend>
+            
+                <label class="label" for="course">Interested Courses: </label><br>
+
+                <input type="checkbox" id="course" value="Web Design">Web Design
+                <input type="checkbox" id="course" value="Web Development">Web Development
+                <input type="checkbox" id="course" value="Software Development">Software Development
+                <input type="checkbox" id="course" value="Apps Development">Apps Development
+           <hr><br>
+            <label  class="label" for="language">Programming Languages:</label><br>
+            
+                <input type="checkbox" id="language" value="C">C
+                <input type="checkbox" id="language" value="C++">C++
+                <input type="checkbox" id="language" value="Java">Java
+                <input type="checkbox" id="language" value="JavaScript">JavaScript
+                <input type="checkbox" id="language" value="Python">Python
+                <input type="checkbox" id="language" value="Android">Android
+            
+
+        </fieldset>  
+    <fieldset class="sec3 fieldset">
+        <legend class="legend">Payment Method(Must Required)</legend>
+     
+        <label  class="label" for="pay">Process: </label>
+            <input type="radio" id="pay" value="Bkash">Bkash
+            <input type="radio" id="pay" value="Nogod">Nogod
+            <input type="radio" id="pay" value="Rocket">Rocket
+            <input type="radio" id="pay" value="Card">Card
+        
+    </fieldset>
+  
+    <input class="btn1 btn" type="reset" value="Reset">
+    <input  class="btn2 btn" type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>Developed By <span class="fs1"> &copy;</span> <span class="fs2">Farhan Fradid</span>  for Web Programming Hero Course.</p>
+    </footer>
+</main>
+</body>
+</html>
